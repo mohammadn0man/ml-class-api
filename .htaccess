@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteRule ^/?v(.*)$ index.php?url__id=$1
+RewriteRule ^(.*)$ index.php
